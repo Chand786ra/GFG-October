@@ -1,3 +1,5 @@
+ class Solution{
+ public:
  string maxSum(string w,char x[], int b[],int n){
 
           unordered_map<char,int>mp;
@@ -27,3 +29,4 @@
           }
           return ans;
       }
+};
